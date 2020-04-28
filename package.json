@@ -31,7 +31,7 @@
     "integration-test": "node ./node_modules/istanbul/lib/cli.js test _mocha test/integration-tests -- -R spec",
     "lint": "tslint --project .",
     "build": "tsc --project .",
-    "prepack": "npm run build"
+    "prepack": "npm i && npm run build"
   },
   "files": [
     "*.js",
